@@ -75,30 +75,10 @@ function draw() {
   playerArcher.display();
   computerArcher.display()
 
-
+if(keyCode===32){
+  arrow.shoot(playerArcher.body.angle)
+}
 
 
 }
 
-//function keyPressed() {
-
-  //if(keyCode === 32){
-   
- //// }
-//}
-
-//function keyReleased () {
-
- // if(keyCode === 32){
-    //call shoot() function for each arrow in an array playerArrows
-
- // }
-
-
-////}
-//Display arrow and Tranjectory
-////function showArrows(index, arrows) {
-
- 
-
-//}
